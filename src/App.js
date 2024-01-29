@@ -1,6 +1,6 @@
 import logo from './assets/logo.png'
 import bulldog from './assets/Bulldog.png'
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 
 function App() {
