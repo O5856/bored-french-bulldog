@@ -7,11 +7,6 @@ function App() {
 
   const [advice, setAdvice] = useState("Simply tap the button and instantly receive a fresh idea to entertain yourself.")
 
-  //  Решила не использовать, так как хочу чтобы совет появлялся только после клика на кнопку
-  // useEffect(() => {
-  //   getAdvice()
-  // }, [])
-
   const getAdvice = async () => {
     const response = await fetch(`http://www.boredapi.com/api/activity/`);
     const data = await response.json();
