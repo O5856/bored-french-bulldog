@@ -18,12 +18,12 @@ function App() {
     <div>
       <div className="container logo-img-bgd">
         <h1>
-          <img src={logo} width='500px' />
+          <img src={logo} width='500px' alt='logo' />
         </h1>
         <h2>
           Your antidote to <br /> boredom
         </h2>
-        <img src={bulldog} width='400px' />
+        <img src={bulldog} width='400px' alt='bulldog' />
 
       </div>
 
